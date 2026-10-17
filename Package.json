@@ -1,0 +1,9 @@
+{
+  "name": "multi-agent-ecommerce-system",
+  "version": "1.0.0",
+  "description": "A deployable demo e-commerce app coordinated by specialized AI-style agents",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2" }
+}
