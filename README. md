@@ -1,0 +1,31 @@
+
+
+## Deploy to Vercel
+
+This project exports the Express app for Vercel and keeps `npm start` for local use.
+
+### Deploy using the Vercel CLI (Windows PowerShell)
+
+From the project folder:
+
+```powershell
+npm install
+npm start
+```
+
+Stop the local server with `Ctrl+C`, then run:
+
+```powershell
+npx vercel
+```
+
+Follow the prompts to log in and create/link a Vercel project. For a preview deployment, accept the defaults. When it finishes, open the URL printed by Vercel.
+
+Deploy to production with:
+
+```powershell
+npx vercel --prod
+```
+
+The `public` directory contains the static frontend assets. Vercel serves those files and runs the exported Express app for the backend routes.
+
